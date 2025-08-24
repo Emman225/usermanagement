@@ -1,0 +1,11 @@
+.page-bg {
+    background-image: url('/bg-10.png');
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'élément */
+    background-position: center; /* Centre l'image */
+}
+
+.dark .page-bg {
+    background-image: url('/bg-10-dark.png');
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'élément */
+    background-position: center; /* Centre l'image */
+}
