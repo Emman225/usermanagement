@@ -8,8 +8,8 @@ const nextConfig = {
       },
       {
         protocol: 'http',
-        hostname: '192.168.5.195',
-        port: '8283',
+        hostname: 'https://usermanagement-api.ecoletestpro.com',
+        port: '8080',
       },
     ],
   },
