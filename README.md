@@ -13,6 +13,12 @@ Ce projet est une application frontend de gestion des utilisateurs développée 
 - **SweetAlert2** - Bibliothèque pour les alertes et notifications
 - **XLSX & jsPDF** - Bibliothèques pour l'export de données
 
+## API Backend
+
+Cette application frontend se connecte à une API backend de gestion des utilisateurs développée avec Laravel. Le code source de l'API est disponible sur GitHub :
+
+- [Repository GitHub de l'API](https://github.com/Emman225/user-management-api.git)
+
 ## Prérequis
 
 - Node.js (version recommandée : 18.x ou supérieure)

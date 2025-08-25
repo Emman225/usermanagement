@@ -11,6 +11,10 @@ const nextConfig = {
         hostname: '192.168.5.195',
         port: '8283',
       },
+      {
+        protocol: 'https',
+        hostname: 'usermanagement-api.ecoletestpro.com',
+      },
     ],
   },
 };

@@ -1,0 +1,11 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/dashboard/logs/page": "/dashboard/logs",
+  "/dashboard/creer/page": "/dashboard/creer",
+  "/dashboard/detail/[id]/page": "/dashboard/detail/[id]",
+  "/dashboard/modifier/[id]/page": "/dashboard/modifier/[id]",
+  "/dashboard/page": "/dashboard",
+  "/page": "/",
+  "/login/page": "/login",
+  "/users/creer/page": "/users/creer"
+}
