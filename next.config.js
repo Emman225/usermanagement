@@ -7,9 +7,8 @@ const nextConfig = {
         hostname: 'fonts.gstatic.com',
       },
       {
-        protocol: 'http',
-        hostname: 'https://usermanagement-api.ecoletestpro.com',
-        port: '8080',
+        protocol: 'https',
+        hostname: 'usermanagement-api.ecoletestpro.com',
       },
     ],
   },
