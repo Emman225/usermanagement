@@ -2,12 +2,11 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: ['https://usermanagement-api.ecoletestpro.com'],
+    domains: ['usermanagement-api.ecoletestpro.com'],
     remotePatterns: [
       {
-        protocol: 'http',
-        hostname: 'https://usermanagement-api.ecoletestpro.com',
-        port: '8080',
+        protocol: 'https',
+        hostname: 'usermanagement-api.ecoletestpro.com',
         pathname: '/storage/profile_photos/**',
       },
     
