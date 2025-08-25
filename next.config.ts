@@ -5,10 +5,9 @@ const nextConfig: NextConfig = {
     domains: ['192.168.5.195', 'usermanagement-api.ecoletestpro.com'],
     remotePatterns: [
       {
-        protocol: 'http',
-        hostname: '192.168.5.195',
-        port: '8283',
-        pathname: '/storage/profile_photos/**',
+        protocol: "https",
+        hostname: "usermanagement-api.ecoletestpro.com",
+        pathname: "/storage/**", // ✅ autorise tous les fichiers sous /storage/
       },
       {
         protocol: 'https',
