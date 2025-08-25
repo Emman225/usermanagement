@@ -2,6 +2,11 @@
 
 Ce projet est une application frontend de gestion des utilisateurs développée avec React et Next.js. Il fournit une interface utilisateur moderne et réactive pour gérer les utilisateurs, les rôles et les autorisations.
 
+## Dépôt GitHub
+
+Le code source de ce projet est disponible sur GitHub :
+- [Repository GitHub du Frontend](https://github.com/Emman225/user-management-frontend.git)
+
 ## Technologies utilisées
 
 - **React 19** - Bibliothèque JavaScript pour construire des interfaces utilisateur
