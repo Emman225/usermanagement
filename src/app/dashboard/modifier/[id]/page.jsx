@@ -10,6 +10,7 @@ import axios from 'axios';
 import { useRouter, useParams } from 'next/navigation';
 import { getApiUrl } from '@/utils/env';
 import Swal from 'sweetalert2';
+import Image from "next/image";
 
 function ModifierUtilisateurContent() {
   const router = useRouter();
@@ -257,9 +258,11 @@ function ModifierUtilisateurContent() {
                           className="w-20 h-20 rounded-full object-cover"
                         />
                       ) : formData.current_profile_photo ? (
-                        <img
+                        <Image
                           src={formData.current_profile_photo}
                           alt="Current profile"
+                          width={80}
+                          height={80}
                           className="w-20 h-20 rounded-full object-cover"
                         />
                       ) : (
@@ -404,6 +407,7 @@ function ModifierUtilisateurContent() {
     </div>
   );
 }
+
 
 export default function ModifierUtilisateur() {
   return (

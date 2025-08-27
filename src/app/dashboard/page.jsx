@@ -15,6 +15,7 @@ import axios from 'axios';
 import { hasPermission } from "@/utils/roleCheck";
 import { getApiUrl } from '@/utils/env';
 import Swal from 'sweetalert2';
+import Image from "next/image";
 
 // 🔹 Badges pour le statut actif/inactif 
 const statutBadge = (active) => {
@@ -292,9 +293,11 @@ function ListeUtilisateursContent() {
       cell: ({ row }) => (
         <div className="flex items-center gap-3">
           {row.original.profile_photo_url ? (
-            <img
+            <Image
               src={row.original.profile_photo_url}
               alt={row.original.name}
+              width={36}
+              height={36}
               className="w-9 h-9 rounded-full object-cover"
               onError={(e) => {
                 e.target.style.display = 'none';

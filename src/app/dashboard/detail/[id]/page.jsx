@@ -11,6 +11,7 @@ import ProtectedRoute from "@/components/ProtectedRoute";
 import axios from 'axios';
 import { getApiUrl } from '@/utils/env';
 import Swal from 'sweetalert2';
+import Image from "next/image";
 
 const getInitials = (name) => {
   return name
@@ -137,9 +138,11 @@ function DetailUtilisateurContent() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-end">
                   <div className="flex items-center gap-4">
                     {utilisateur.profile_photo_url ? (
-                      <img
-                        src={utilisateur.profile_photo_url}
+                      <Image
+                        src={transformImageUrl(utilisateur.profile_photo_url)}
                         alt={utilisateur.name}
+                        width={64}
+                        height={64}
                         className="w-16 h-16 rounded-full border object-cover"
                       />
                     ) : (
@@ -204,9 +207,11 @@ function DetailUtilisateurContent() {
                   <h2 className="text-lg font-semibold mb-2">Photo de profil</h2>
                   <div className="text-muted-foreground text-xs mb-4">Photo actuelle de l'utilisateur</div>
                   <div className="flex justify-center">
-                    <img
+                    <Image
                       src={utilisateur.profile_photo_url}
                       alt={utilisateur.name}
+                      width={128}
+                      height={128}
                       className="w-32 h-32 rounded-full border object-cover"
                     />
                   </div>

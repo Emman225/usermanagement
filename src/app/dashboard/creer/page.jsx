@@ -10,6 +10,7 @@ import axios from 'axios';
 import { useRouter } from 'next/navigation';
 import { getApiUrl } from '@/utils/env';
 import Swal from 'sweetalert2';
+import Image from "next/image";
 
 function CreerUtilisateurContent() {
   const router = useRouter();
